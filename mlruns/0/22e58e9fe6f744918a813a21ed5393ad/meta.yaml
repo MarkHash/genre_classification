@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/22e58e9fe6f744918a813a21ed5393ad/artifacts
+end_time: 1670368137982
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22e58e9fe6f744918a813a21ed5393ad
+run_name: hilarious-mink-41
+run_uuid: 22e58e9fe6f744918a813a21ed5393ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670367748547
+status: 3
+tags: []
+user_id: makotohashimoto

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.6-x86_64-i386-64bit",
+    "python": "3.11.0",
+    "heartbeatAt": "2022-12-06T22:51:22.603757",
+    "startedAt": "2022-12-06T22:51:21.679122",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/MarkHash/genre_classification.git",
+        "commit": "628057e2dcb84beb82d4e4bac450b9d9697ac2f9"
+    },
+    "email": null,
+    "root": "/Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification",
+    "host": "192-168-1-103.tpgi.com.au",
+    "username": "makotohashimoto",
+    "executable": "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-f79c686ec1d088bf097d0b3cadb93889167d8415/bin/python"
+}

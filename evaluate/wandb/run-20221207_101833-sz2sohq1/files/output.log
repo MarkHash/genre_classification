@@ -1,0 +1,55 @@
+
+2022-12-07 10:18:36,342 Downloading and reading test artifact
+2022-12-07 10:18:38,312 Extracting target from dataframe
+2022-12-07 10:18:38,320 Downloading and reading the exported model
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Attempted to fetch artifact without alias (e.g. "<artifact_name>:v3" or "<artifact_name>:latest")
+Traceback (most recent call last):
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 4617, in _load
+    response = self.client.execute(
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 190, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 225, in execute
+    return self._client.execute(*args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 922, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 4062, in __init__
+    self._load()
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 4629, in _load
+    raise ValueError(
+ValueError: Attempted to fetch artifact without alias (e.g. "<artifact_name>:v3" or "<artifact_name>:latest")
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 83, in <module>
+    go(args)
+  File "run.py", line 29, in go
+    model_export_path = run.use_artifact(args.model_export).download()
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 245, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2518, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 922, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 4062, in __init__
+    self._load()
+  File "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-1018b7e62c774b7c150a24efe417d58a507117be/lib/python3.8/site-packages/wandb/apis/public.py", line 4629, in _load
+    raise ValueError(
+wandb.errors.CommError: Attempted to fetch artifact without alias (e.g. "<artifact_name>:v3" or "<artifact_name>:latest")

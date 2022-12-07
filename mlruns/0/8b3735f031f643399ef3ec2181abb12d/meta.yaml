@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/8b3735f031f643399ef3ec2181abb12d/artifacts
+end_time: 1670367022348
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b3735f031f643399ef3ec2181abb12d
+run_name: invincible-bear-144
+run_uuid: 8b3735f031f643399ef3ec2181abb12d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670367017164
+status: 4
+tags: []
+user_id: makotohashimoto

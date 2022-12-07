@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/053002e1fd15491f829eb2a92f4acd69/artifacts
+end_time: 1670368867941
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 053002e1fd15491f829eb2a92f4acd69
+run_name: angry-roo-359
+run_uuid: 053002e1fd15491f829eb2a92f4acd69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670368863948
+status: 4
+tags: []
+user_id: makotohashimoto

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/354f2ef101de4662b98f9e2759161187/artifacts
+end_time: 1670369032578
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 354f2ef101de4662b98f9e2759161187
+run_name: treasured-turtle-121
+run_uuid: 354f2ef101de4662b98f9e2759161187
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670369027005
+status: 4
+tags: []
+user_id: makotohashimoto
