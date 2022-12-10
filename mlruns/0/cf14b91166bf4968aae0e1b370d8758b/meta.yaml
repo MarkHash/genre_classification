@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/cf14b91166bf4968aae0e1b370d8758b/artifacts
+end_time: 1670635958506
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: cf14b91166bf4968aae0e1b370d8758b
+run_uuid: cf14b91166bf4968aae0e1b370d8758b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670635935331
+status: 3
+tags: []
+user_id: makotohashimoto

@@ -1,0 +1,172 @@
+2022-12-10 12:31:18,283 INFO    StreamThr :2772 [internal.py:wandb_internal():88] W&B internal server running at pid: 2772, started at: 2022-12-10 12:31:18.281776
+2022-12-10 12:31:18,286 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: status
+2022-12-10 12:31:18,287 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: status
+2022-12-10 12:31:18,289 INFO    WriterThread:2772 [datastore.py:open_for_write():75] open: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/run-1lp09f6x.wandb
+2022-12-10 12:31:18,289 DEBUG   SenderThread:2772 [sender.py:send():301] send: header
+2022-12-10 12:31:18,290 DEBUG   SenderThread:2772 [sender.py:send():301] send: run
+2022-12-10 12:31:18,912 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: check_version
+2022-12-10 12:31:18,914 INFO    SenderThread:2772 [dir_watcher.py:__init__():216] watching files in: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files
+2022-12-10 12:31:18,914 INFO    SenderThread:2772 [sender.py:_start_run_threads():912] run started: 1lp09f6x with start time 1670635878.26289
+2022-12-10 12:31:18,914 DEBUG   SenderThread:2772 [sender.py:send():301] send: summary
+2022-12-10 12:31:18,915 INFO    SenderThread:2772 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-12-10 12:31:18,915 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: check_version
+2022-12-10 12:31:19,100 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: run_start
+2022-12-10 12:31:19,102 DEBUG   HandlerThread:2772 [meta.py:__init__():34] meta init
+2022-12-10 12:31:19,102 DEBUG   HandlerThread:2772 [meta.py:__init__():49] meta init done
+2022-12-10 12:31:19,102 DEBUG   HandlerThread:2772 [meta.py:probe():215] probe
+2022-12-10 12:31:19,112 DEBUG   HandlerThread:2772 [meta.py:_setup_git():205] setup git
+2022-12-10 12:31:19,153 DEBUG   HandlerThread:2772 [meta.py:_setup_git():212] setup git done
+2022-12-10 12:31:19,153 DEBUG   HandlerThread:2772 [meta.py:_save_pip():53] save pip
+2022-12-10 12:31:19,154 DEBUG   HandlerThread:2772 [meta.py:_save_pip():67] save pip done
+2022-12-10 12:31:19,154 DEBUG   HandlerThread:2772 [meta.py:_save_conda():74] save conda
+2022-12-10 12:31:19,922 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/conda-environment.yaml
+2022-12-10 12:31:19,923 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/requirements.txt
+2022-12-10 12:31:19,923 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/wandb-summary.json
+2022-12-10 12:31:20,919 DEBUG   HandlerThread:2772 [meta.py:_save_conda():84] save conda done
+2022-12-10 12:31:20,920 DEBUG   HandlerThread:2772 [meta.py:probe():253] probe done
+2022-12-10 12:31:20,922 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/conda-environment.yaml
+2022-12-10 12:31:20,922 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/wandb-metadata.json
+2022-12-10 12:31:20,926 DEBUG   SenderThread:2772 [sender.py:send():301] send: files
+2022-12-10 12:31:20,926 INFO    SenderThread:2772 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-12-10 12:31:20,932 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: stop_status
+2022-12-10 12:31:20,932 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: stop_status
+2022-12-10 12:31:21,268 DEBUG   SenderThread:2772 [sender.py:send():301] send: telemetry
+2022-12-10 12:31:21,884 INFO    Thread-17 :2772 [upload_job.py:push():139] Uploaded file /var/folders/t9/nj1srzn92cdfst32dljgsrl00000gn/T/tmpdh9j4k0ewandb/18qdijvr-wandb-metadata.json
+2022-12-10 12:31:23,570 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: log_artifact
+2022-12-10 12:31:23,570 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: log_artifact
+2022-12-10 12:31:23,932 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/output.log
+2022-12-10 12:31:24,513 INFO    SenderThread:2772 [sender.py:send_request_log_artifact():1206] logged artifact raw_data.parquet - {'id': 'QXJ0aWZhY3Q6Mjk0Mzk4Mzc1', 'digest': 'd07cfe0c8bd86971c9f85bce13c85266', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'raw_data.parquet', 'alias': 'latest'}, {'artifactCollectionName': 'raw_data.parquet', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ3MDA3Mjcx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mjk0Mzk4Mzc1', 'versionIndex': 0}}, 'version': 'v0'}
+2022-12-10 12:31:25,571 DEBUG   SenderThread:2772 [sender.py:send():301] send: telemetry
+2022-12-10 12:31:25,573 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:25,573 DEBUG   SenderThread:2772 [sender.py:send():301] send: exit
+2022-12-10 12:31:25,573 INFO    SenderThread:2772 [sender.py:send_exit():437] handling exit code: 0
+2022-12-10 12:31:25,573 INFO    SenderThread:2772 [sender.py:send_exit():439] handling runtime: 6
+2022-12-10 12:31:25,574 INFO    SenderThread:2772 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-12-10 12:31:25,574 INFO    SenderThread:2772 [sender.py:send_exit():445] send defer
+2022-12-10 12:31:25,574 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:25,575 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:25,575 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 0
+2022-12-10 12:31:25,576 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:25,576 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-12-10 12:31:25,576 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 1
+2022-12-10 12:31:25,576 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:25,577 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 1
+2022-12-10 12:31:25,674 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:25,675 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-12-10 12:31:25,675 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 2
+2022-12-10 12:31:25,676 DEBUG   SenderThread:2772 [sender.py:send():301] send: stats
+2022-12-10 12:31:25,676 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:25,677 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 2
+2022-12-10 12:31:25,677 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:25,677 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-12-10 12:31:25,677 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 3
+2022-12-10 12:31:25,678 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:25,678 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 3
+2022-12-10 12:31:25,679 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:25,679 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-12-10 12:31:25,679 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 4
+2022-12-10 12:31:25,680 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:25,680 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 4
+2022-12-10 12:31:25,680 DEBUG   SenderThread:2772 [sender.py:send():301] send: summary
+2022-12-10 12:31:25,681 INFO    SenderThread:2772 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-12-10 12:31:25,682 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:25,682 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-12-10 12:31:25,682 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 5
+2022-12-10 12:31:25,683 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:25,683 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 5
+2022-12-10 12:31:25,683 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:25,683 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-12-10 12:31:25,688 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:25,935 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/output.log
+2022-12-10 12:31:25,935 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/wandb-summary.json
+2022-12-10 12:31:26,049 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 6
+2022-12-10 12:31:26,050 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:26,051 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:26,051 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 6
+2022-12-10 12:31:26,051 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:26,051 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-12-10 12:31:26,157 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:26,936 INFO    Thread-13 :2772 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/config.yaml
+2022-12-10 12:31:27,257 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 7
+2022-12-10 12:31:27,257 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:27,258 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:27,258 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 7
+2022-12-10 12:31:27,258 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:27,259 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-12-10 12:31:27,259 INFO    SenderThread:2772 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-10 12:31:27,365 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:27,937 INFO    SenderThread:2772 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/output.log
+2022-12-10 12:31:27,938 INFO    SenderThread:2772 [dir_watcher.py:finish():392] scan: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files
+2022-12-10 12:31:27,938 INFO    SenderThread:2772 [dir_watcher.py:finish():406] scan save: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/requirements.txt requirements.txt
+2022-12-10 12:31:27,938 INFO    SenderThread:2772 [dir_watcher.py:finish():406] scan save: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/output.log output.log
+2022-12-10 12:31:27,939 INFO    SenderThread:2772 [dir_watcher.py:finish():406] scan save: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/config.yaml config.yaml
+2022-12-10 12:31:27,939 INFO    SenderThread:2772 [dir_watcher.py:finish():406] scan save: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/wandb-summary.json wandb-summary.json
+2022-12-10 12:31:27,943 INFO    SenderThread:2772 [dir_watcher.py:finish():406] scan save: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/conda-environment.yaml conda-environment.yaml
+2022-12-10 12:31:27,950 INFO    SenderThread:2772 [dir_watcher.py:finish():406] scan save: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/wandb-metadata.json wandb-metadata.json
+2022-12-10 12:31:27,950 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 8
+2022-12-10 12:31:27,950 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:27,951 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:27,951 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 8
+2022-12-10 12:31:27,951 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:27,955 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-12-10 12:31:27,956 INFO    SenderThread:2772 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-10 12:31:28,058 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,058 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,166 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,166 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,271 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,271 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,374 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,375 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,481 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,482 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,586 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,586 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,694 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,694 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,800 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,800 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,910 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:28,910 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:28,968 INFO    Thread-18 :2772 [upload_job.py:push():139] Uploaded file /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/requirements.txt
+2022-12-10 12:31:28,997 INFO    Thread-19 :2772 [upload_job.py:push():139] Uploaded file /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/output.log
+2022-12-10 12:31:29,008 INFO    Thread-22 :2772 [upload_job.py:push():139] Uploaded file /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/conda-environment.yaml
+2022-12-10 12:31:29,017 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:29,018 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:29,032 INFO    Thread-21 :2772 [upload_job.py:push():139] Uploaded file /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/wandb-summary.json
+2022-12-10 12:31:29,040 INFO    Thread-20 :2772 [upload_job.py:push():139] Uploaded file /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/files/config.yaml
+2022-12-10 12:31:29,127 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:29,127 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:29,236 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:29,236 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:29,241 INFO    Thread-12 (_thread_body):2772 [sender.py:transition_state():458] send defer: 9
+2022-12-10 12:31:29,241 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:29,242 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 9
+2022-12-10 12:31:29,242 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:29,242 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-12-10 12:31:29,346 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:29,477 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 10
+2022-12-10 12:31:29,477 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:29,478 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:29,478 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 10
+2022-12-10 12:31:29,478 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:29,478 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-12-10 12:31:29,479 INFO    SenderThread:2772 [sender.py:transition_state():458] send defer: 11
+2022-12-10 12:31:29,479 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: defer
+2022-12-10 12:31:29,479 INFO    HandlerThread:2772 [handler.py:handle_request_defer():161] handle defer: 11
+2022-12-10 12:31:29,480 DEBUG   SenderThread:2772 [sender.py:send():301] send: final
+2022-12-10 12:31:29,480 DEBUG   SenderThread:2772 [sender.py:send():301] send: footer
+2022-12-10 12:31:29,480 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: defer
+2022-12-10 12:31:29,480 INFO    SenderThread:2772 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-12-10 12:31:29,585 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: poll_exit
+2022-12-10 12:31:29,586 DEBUG   SenderThread:2772 [sender.py:send_request():315] send_request: poll_exit
+2022-12-10 12:31:29,586 INFO    SenderThread:2772 [file_pusher.py:join():173] waiting for file pusher
+2022-12-10 12:31:29,997 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: sampled_history
+2022-12-10 12:31:30,001 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: get_summary
+2022-12-10 12:31:30,005 DEBUG   HandlerThread:2772 [handler.py:handle_request():138] handle_request: shutdown
+2022-12-10 12:31:30,005 INFO    HandlerThread:2772 [handler.py:finish():807] shutting down handler
+2022-12-10 12:31:30,481 INFO    WriterThread:2772 [datastore.py:close():279] close: /Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/download/wandb/run-20221210_123118-1lp09f6x/run-1lp09f6x.wandb
+2022-12-10 12:31:30,895 INFO    SenderThread:2772 [sender.py:finish():1315] shutting down sender
+2022-12-10 12:31:30,895 INFO    SenderThread:2772 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-10 12:31:30,895 INFO    SenderThread:2772 [file_pusher.py:join():173] waiting for file pusher
+2022-12-10 12:31:32,010 INFO    MainThread:2772 [internal.py:handle_exit():78] Internal process exited

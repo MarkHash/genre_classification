@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/1ba0e442071349c8b5ec462fdf68d3c7/artifacts
+end_time: 1670635092349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ba0e442071349c8b5ec462fdf68d3c7
+run_name: salty-worm-765
+run_uuid: 1ba0e442071349c8b5ec462fdf68d3c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670635083952
+status: 4
+tags: []
+user_id: makotohashimoto

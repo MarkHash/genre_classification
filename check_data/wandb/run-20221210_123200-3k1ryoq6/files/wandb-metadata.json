@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.6-x86_64-i386-64bit",
+    "python": "3.9.15",
+    "heartbeatAt": "2022-12-10T01:32:01.515585",
+    "startedAt": "2022-12-10T01:32:00.182730",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-d6e21cfea6ea2ddc5a4e1247f2ef559f3b533de2/bin/pytest",
+    "git": {
+        "remote": "https://github.com/MarkHash/genre_classification.git",
+        "commit": "afd43658ca06b9700aaa43caf20d89770bae46f1"
+    },
+    "email": null,
+    "root": "/Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification",
+    "host": "192-168-1-103.tpgi.com.au",
+    "username": "makotohashimoto",
+    "executable": "/Users/makotohashimoto/opt/anaconda3/envs/mlflow-d6e21cfea6ea2ddc5a4e1247f2ef559f3b533de2/bin/python"
+}

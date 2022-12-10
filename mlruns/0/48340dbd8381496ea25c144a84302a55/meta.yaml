@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/makotohashimoto/Documents/Study/cd0581-building-a-reproducible-model-workflow-exercises/genre_classification/mlruns/0/48340dbd8381496ea25c144a84302a55/artifacts
+end_time: 1670385098042
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 48340dbd8381496ea25c144a84302a55
+run_name: monumental-lynx-94
+run_uuid: 48340dbd8381496ea25c144a84302a55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670385090887
+status: 4
+tags: []
+user_id: makotohashimoto
